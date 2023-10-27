@@ -10,7 +10,10 @@
 
 interface ICharacter {
   name: string,
-  level: number
+  level: number,
+  introduce(string): void;
+  levelUp(): void;
+
 }
 
 interface ISpellCaster {
